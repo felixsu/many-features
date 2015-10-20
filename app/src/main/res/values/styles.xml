@@ -6,9 +6,18 @@
 
     </style>
 
-    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="background">@color/colorBackground</item>-->
+    </style>
+    <style name="ToolBarTheme.Dark" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:textColorSecondary">@color/colorText</item>
+    </style>
+    <style name="ToolBarTheme.Light" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/colorSecondaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
     </style>
 </resources>
